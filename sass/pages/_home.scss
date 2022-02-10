@@ -3,6 +3,7 @@
   height: 91.6rem;
   background-color: $color-white;
   z-index: 1;
+
   &__bg {
     position: absolute;
     top: 10%;
@@ -16,6 +17,7 @@
       object-fit: contain;
     }
   }
+
   &__flex-container {
     display: flex;
     justify-content: space-between;
@@ -27,6 +29,7 @@
       font-weight: 700;
       color: $color-text;
     }
+
     &-menu ul {
       display: flex;
       list-style: none;
@@ -45,26 +48,31 @@
       }
     }
   }
+
   &__center {
     width: 50%;
     margin: 0 auto;
   }
 }
+
 .heading__primary {
   width: 50%;
   margin-top: 5rem;
   font-size: 4.8rem;
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0.37px;
+
   &-content {
     margin-top: 0;
   }
+
   &--connect {
     text-decoration: none;
     text-transform: uppercase;
   }
 }
+
 .connect {
   margin-top: 2rem;
 }

@@ -68,7 +68,7 @@ body {
   margin-top: 5rem;
   font-size: 4.8rem;
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0.37px; }
   .heading__primary-content {
     margin-top: 0; }
